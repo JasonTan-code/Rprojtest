@@ -20,9 +20,6 @@ Calc_Count_Mean <- function(col_row){
 #' Title
 #'
 #' @param n a number of rows
-#'
-#' @return
-#' @export
 Modify_Count <- function(n){
    count <- read.csv(system.file("extdata","count.csv",package = "cats"), row.names = 1)
    count = count[n,]
