@@ -13,6 +13,6 @@ plotIris <- function(column){
     warning("There is nothing returned")
     return()
   } else {
-    return(ggplot2::ggplot(iris) + ggplot2::aes_string(x =  as.name(column)) + ggplot2::geom_histogram())
+    return(ggplot2::ggplot(datasets::iris) + ggplot2::aes_string(x =  as.name(column)) + ggplot2::geom_histogram())
   }
 }
