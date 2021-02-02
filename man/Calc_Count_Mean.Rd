@@ -12,6 +12,3 @@ Calc_Count_Mean(col_row)
 \description{
 Title
 }
-\examples{
-Calc_Count_Mean("col")
-}
